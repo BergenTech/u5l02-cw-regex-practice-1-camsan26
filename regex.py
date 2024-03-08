@@ -1,7 +1,7 @@
 import re
 
 # 1. Match the word "cat" in a string.
-pattern = r""
+pattern = r"cat"
 text = "The cat sat on the mat."
 match = re.search(pattern, text)
 print(match.group() if match else "No match")
